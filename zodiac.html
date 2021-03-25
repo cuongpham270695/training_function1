@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Zodiac</title>
+</head>
+<body>
+<script type="text/javascript">
+    let arr1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let arr2 = ["Ursa Minor", "Taurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    let a = prompt("Enter the star: ");
+
+    function check() {
+        for (i = 0; i < arr1.length; i++) {
+            if (a === arr1[i]){
+                alert(arr2[i]);
+                break;
+            }
+        }
+    }check();
+</script>
+</body>
+</html>
